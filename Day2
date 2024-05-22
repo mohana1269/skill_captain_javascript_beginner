@@ -1,0 +1,11 @@
+//Write a function that converts temperature from Celsius to Fahrenheit. The formula for conversion is: `F = (C * 9/5) + 32
+
+function convertCelsiusToFarenheit(celsius){
+    
+    const fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+}
+
+const celsius = 30; 
+const fahrenheit = convertCelsiusToFarenheit(celsius);
+console.log(celsius + " degrees Celsius is equal to " + fahrenheit + " degrees Fahrenheit.");
